@@ -1,7 +1,7 @@
 const express= require ('express')
 const app= express()
-const userRoutes = require('./routes/userRoutes')
-const admRoutes = require('./routes/admRoutes')
+const userRoutes = require('./views/userRoutes')
+const admRoutes = require('./views/admRoutes')
 app.get('/', (req,res)=>{
     res.send("servidor rodando")
 })
